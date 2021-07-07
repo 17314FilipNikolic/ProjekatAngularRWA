@@ -1,4 +1,4 @@
-import { createFeatureSelector, createSelector } from "@ngrx/store";
+import { createSelector } from "@ngrx/store";
 import { Book } from "../models/book";
 import { AppState } from "./app.state";
 import { BooksState } from "./books.reducer";
@@ -26,8 +26,8 @@ export const selectClickedBookId = createSelector(
 );
 
 
-export const selectSelectedMovie = createSelector(
+export const selectClickedBook = createSelector(
     selectAllBooksAsDict,
     selectClickedBookId,
-    (movies, clickedBookId) => movies[clickedBookId] ?? null
+    (books, clickedBookId) => books[clickedBookId] ?? null
 );

@@ -1,1 +1,5 @@
-<p>book works!</p>
+<div *ngIf="book" (click)="clicked()">
+    <img src="{{book.cover}}" />
+    <span class="info">{{book.title}}</span>
+    <span class="info">{{book.score.toPrecision(2)}}</span>
+</div>

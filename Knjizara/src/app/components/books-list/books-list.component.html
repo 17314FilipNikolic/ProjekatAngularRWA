@@ -1,1 +1,3 @@
-<p>books-list works!</p>
+<ul *ngFor="let book of books | async">
+    <app-book [book]="book" (onClick)="selectBook($event)"></app-movie> 
+ </ul>
