@@ -8,25 +8,27 @@ import { BookComponent } from './components/book/book.component';
 import { BooksListComponent } from './components/books-list/books-list.component';
 import { BookDetailsComponent } from './components/book-details/book-details.component';
 import { StoreModule } from '@ngrx/store';
-import { bookReducer } from './store/books.reducer';
+import { booksReducer } from './store/books.reducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { BooksService } from './services/books.service';
 import { environment } from 'src/environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { BooksEffects } from './store/books.effects';
+import { BooksComponent } from './components/books/books.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BookComponent,
     BooksListComponent,
-    BookDetailsComponent
+    BookDetailsComponent,
+    BooksComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    StoreModule.forRoot({ books: bookReducer }),
+    StoreModule.forRoot({ books: booksReducer }),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
     EffectsModule.forRoot([BooksEffects])
   ],
