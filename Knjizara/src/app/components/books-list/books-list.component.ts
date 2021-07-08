@@ -15,7 +15,7 @@ import { selectAllBooks } from 'src/app/store/books.selectors';
 export class BooksListComponent implements OnInit {
 
   books: Observable<readonly Book[]> = of([]);
-  @Output() onSelectedBook: EventEmitter<number> = new EventEmitter<number>();
+  //@Output() onSelectedBook: EventEmitter<number> = new EventEmitter<number>();
 
   constructor(private store: Store<AppState>) { }
 
