@@ -16,6 +16,7 @@ import { EffectsModule } from '@ngrx/effects';
 import { BooksEffects } from './store/books.effects';
 import { BooksComponent } from './components/books/books.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { InfoComponent } from './components/info/info.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BookComponent,
     BooksListComponent,
     BookDetailsComponent,
-    BooksComponent
+    BooksComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
