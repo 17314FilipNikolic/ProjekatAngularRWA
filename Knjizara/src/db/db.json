@@ -1,0 +1,44 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Harry Potter and the Chamber of Secrets",
+            "author": "J. K. Rowling",
+            "cover": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.co.uk%2FHarry-Potter-Chamber-Secrets%2Fdp%2F1408855666&psig=AOvVaw0Hlmht3KV3rqiVkuNhLPnU&ust=1625839895175000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPitkt_T0_ECFQAAAAAdAAAAABAD",
+            "score": 8.7,
+            "description": "A veteran Green Beret is forced by a cruel Sheriff and his deputies to flee into the mountains and wage an escalating one-man war against his pursuers.",
+            "price": 800,
+            "publisher": "Bloomsbury"
+        },
+        {
+            "id": 2,
+            "title": "The Hobbit",
+            "author": "J. R. R. Tolkien",
+            "cover": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FHobbit-There-Back-Again%2Fdp%2F0547844972&psig=AOvVaw37GkgB__irv_EGkyV3sdb6&ust=1625840382539000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCNjz08bV0_ECFQAAAAAdAAAAABAD",
+            "score": 9.2,
+            "description": "The Hobbit, or There and Back Again is a children's fantasy novel by English author J. R. R. Tolkien. It was published on 21 September 1937 to wide critical acclaim, being nominated for the Carnegie Medal and awarded a prize from the New York Herald Tribune for best juvenile fiction. The book remains popular and is recognized as a classic in children's literature.",
+            "price": 1500,
+            "publisher": "George Allen & Unwin"
+        },
+        {
+            "id": 3,
+            "title": "The Fellowship of the Ring",
+            "author": "J. R. R. Tolkien",
+            "cover": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FFellowship-Ring-Lord-Rings%2Fdp%2F0007488300&psig=AOvVaw3B8d4LMGCeWl5UxCQgqw2h&ust=1625840563454000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPji25zW0_ECFQAAAAAdAAAAABAD",
+            "score": 7.5,
+            "description": "The Fellowship of the Ring is the first of three volumes of the epic[2] novel The Lord of the Rings by the English author J. R. R. Tolkien. It is followed by The Two Towers and The Return of the King. It takes place in the fictional universe of Middle-earth. It was originally published on 29 July 1954 in the United Kingdom.",
+            "price": 1700,
+            "publisher": "George Allen & Unwin"
+        },
+        {
+            "id": 4,
+            "title": "True Heart: A Way to Selflessness",
+            "author": "William M. Watson S. J.",
+            "cover": "https://images-na.ssl-images-amazon.com/images/I/41yWbSDgBDL._SX331_BO1,204,203,200_.jpg",
+            "score": 7.2,
+            "description": "Everyone has experienced coming to a crossroads in their life. We’re all familiar with the feeling of having to decide between two different directions our lives could go--two different visions of our future. How do we pick between them? How do we know which one is the “right” path to take? St Ignatius of Loyola encountered this very problem when he awoke to his heart for the first time at the age of thirty.",
+            "price": 400,
+            "publisher": "900"
+        }
+    ]
+}
