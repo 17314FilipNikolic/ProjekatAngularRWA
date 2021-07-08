@@ -1,1 +1,12 @@
-<p>book-details works!</p>
+<div class='container' *ngIf="book">
+    <h3 >{{ book.title }}</h3>
+    <div class="author">{{ book.author }}</div>
+    <img class="cover" src="{{ book.cover }}" />
+    <div class="description">{{ book.description }}</div>
+    <div class="publisher">{{ book.publisher }}</div>
+    <div class="score">
+      <fa-icon [icon]="icon_star"></fa-icon>
+      {{ book.score.toPrecision(2) }}
+    </div>
+    <div class="price">{{ book.price }}</div>
+  </div>

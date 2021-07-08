@@ -15,6 +15,7 @@ import { environment } from 'src/environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { BooksEffects } from './store/books.effects';
 import { BooksComponent } from './components/books/books.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { BooksComponent } from './components/books/books.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FontAwesomeModule,
     HttpClientModule,
     StoreModule.forRoot({ books: booksReducer }),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
