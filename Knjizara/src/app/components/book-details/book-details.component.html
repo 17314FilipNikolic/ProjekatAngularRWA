@@ -1,12 +1,12 @@
-<div class='container' *ngIf="book">
-    <h3 >{{ book.title }}</h3>
-    <div class="author">{{ book.author }}</div>
-    <img class="cover" src="{{ book.cover }}" />
-    <div class="description">{{ book.description }}</div>
-    <div class="publisher">{{ book.publisher }}</div>
-    <div class="score">
-      <fa-icon [icon]="icon_star"></fa-icon>
-      {{ book.score.toPrecision(2) }}
-    </div>
-    <div class="price">{{ book.price }}</div>
+<div class="container" *ngIf="book">
+  <div class="author">Autor: {{ book.author }}</div>
+  <h3>{{ book.title }}</h3>
+  <img class="cover" src="{{ book.cover }}" />
+  <div class="description">{{ book.description }}</div>
+  <div class="publisher">Izdavac: {{ book.publisher }}</div>
+  <div class="score">
+    <fa-icon [icon]="icon_star"></fa-icon>
+    {{ book.score.toPrecision(2) }}
   </div>
+  <div class="price">Cena: {{ book.price }}</div>
+</div>

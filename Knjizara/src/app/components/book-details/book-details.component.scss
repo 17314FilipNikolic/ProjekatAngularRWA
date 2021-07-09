@@ -1,0 +1,47 @@
+img.cover {
+  width: 50%;
+}
+h3, div.author {
+  background-color: rgb(207, 24, 24);
+  margin-top: 0;
+  text-align: center;
+}
+
+div.author {
+  text-align: center;
+}
+
+div.description {
+  width: 45%;
+  float: right;
+}
+
+div.score, div.price {
+  margin: 10px;
+  font-size: 20px;
+}
+
+div.publisher {
+  margin: 10px;
+  font-size: 15px;
+}
+
+div.score {
+    float: right;
+    width: 45%;
+    text-align: end;
+}
+
+div.score fa-icon {
+  color: gold;
+}
+
+:host {
+  width: 400px;
+  display: block;
+  box-shadow: 10px 5px 5px rgb(45, 137, 160);
+}
+
+div.container {
+  height: fit-content;
+}

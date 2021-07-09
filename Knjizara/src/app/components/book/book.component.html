@@ -1,8 +1,7 @@
-<div *ngIf="book" (click)="clicked()">
-    <img src="{{book.cover}}" />
-    <span class="info">{{book.title}}</span>
-    <span class="info">{{book.author}}</span>
-    <span class="info">{{book.description.split(' ').splice(0, 20).join(' ')}}...</span>
-    <span class="info">{{book.score.toPrecision(2)}}</span>
-    <span class="info">{{book.price}}</span>
+<div class="container" *ngIf="book" (click)="clicked()">
+    <div class="author">{{book.author}}</div>
+    <div class="title">{{book.title}}</div>
+    <img class="cover" src="{{book.cover}}" />
+    <div class="description">{{book.description.split(' ').splice(0, 15).join(' ')}}...</div>
+    <div class="price">{{book.price}}</div>
 </div>

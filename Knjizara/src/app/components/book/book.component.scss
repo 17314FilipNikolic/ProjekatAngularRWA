@@ -1,0 +1,30 @@
+img.cover {
+  width: 50%;
+}
+
+div.author, div.title {
+  margin-top: 0;
+  text-align: center;
+  background-color: powderblue;
+}
+
+div.container {
+  height: fit-content;
+}
+
+div.description {
+  width: 45%;
+  float: right;
+}
+
+div.price {
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+:host {
+  width: 200px;
+  display: block;
+  box-shadow: 10px 5px 5px gray;
+}
