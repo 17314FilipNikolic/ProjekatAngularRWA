@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable, of } from 'rxjs';
 import { Book } from 'src/app/models/book';
@@ -10,19 +10,18 @@ import { selectAllBooks } from 'src/app/store/books.selectors';
   selector: 'app-books-list',
   templateUrl: './books-list.component.html',
   styleUrls: ['./books-list.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class BooksListComponent implements OnInit {
-
   books: Observable<readonly Book[]> = of([]);
 
-  constructor(private store: Store<AppState>) { }
+  constructor(private store: Store<AppState>) {}
 
   ngOnInit(): void {
     this.books = this.store.select(selectAllBooks);
   }
 
   selectedBook(book: Book) {
-    this.store.dispatch(selectBook({bookId: book.id}));
+    this.store.dispatch(selectBook({ bookId: book.id }));
   }
 }

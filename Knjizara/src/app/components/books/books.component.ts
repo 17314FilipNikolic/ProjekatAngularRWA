@@ -8,16 +8,15 @@ import { selectClickedBook } from 'src/app/store/books.selectors';
 @Component({
   selector: 'app-books',
   templateUrl: './books.component.html',
-  styleUrls: ['./books.component.scss']
+  styleUrls: ['./books.component.scss'],
 })
 export class BooksComponent implements OnInit {
   title = 'ng-books';
   selectedBook: Observable<Book | null> = of(null);
 
-  constructor(private store: Store<AppState>) { }
+  constructor(private store: Store<AppState>) {}
 
   ngOnInit(): void {
     this.selectedBook = this.store.select(selectClickedBook);
   }
-
 }

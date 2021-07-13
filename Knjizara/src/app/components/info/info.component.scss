@@ -1,27 +1,29 @@
 div.info {
-    height: fit-content;
+  height: fit-content;
 }
-div.name{
-    margin-top: 0;
-    text-align: center;
+div.name {
+  margin-top: 0;
+  text-align: center;
 }
 
-div.phone, div.adress, div.email{
-    display: inline;
-    margin-left: 10px;
+div.phone,
+div.adress,
+div.email {
+  display: inline;
+  margin-left: 10px;
 }
 
 div.regularInfo {
-    text-align: center;
+  text-align: center;
 }
 
 :host {
-    display: block;
-    background-color:lightblue;
-    color:purple;
+  display: block;
+  background-color: lightblue;
+  color: purple;
 }
 
-div.about{
-    text-align: justify;
-    margin: 10px;
+div.about {
+  text-align: justify;
+  margin: 10px;
 }

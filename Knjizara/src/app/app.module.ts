@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -25,7 +25,7 @@ import { InfoComponent } from './components/info/info.component';
     BooksListComponent,
     BookDetailsComponent,
     BooksComponent,
-    InfoComponent
+    InfoComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,10 +33,13 @@ import { InfoComponent } from './components/info/info.component';
     FontAwesomeModule,
     HttpClientModule,
     StoreModule.forRoot({ books: booksReducer }),
-    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
-    EffectsModule.forRoot([BooksEffects])
+    StoreDevtoolsModule.instrument({
+      maxAge: 25,
+      logOnly: environment.production,
+    }),
+    EffectsModule.forRoot([BooksEffects]),
   ],
   providers: [BooksService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

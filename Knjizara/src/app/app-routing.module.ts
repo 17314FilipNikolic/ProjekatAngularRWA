@@ -5,17 +5,17 @@ import { InfoComponent } from './components/info/info.component';
 
 const routes: Routes = [
   {
-    path: "books",
-    component: BooksComponent
+    path: 'books',
+    component: BooksComponent,
   },
   {
-    path: "info",
-    component: InfoComponent
-  }
+    path: 'info',
+    component: InfoComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -1,44 +1,44 @@
 {
-    "books": [
-        {
-            "id": 1,
-            "title": "Harry Potter and the Chamber of Secrets",
-            "author": "J. K. Rowling",
-            "cover": "https://upload.wikimedia.org/wikipedia/en/5/5c/Harry_Potter_and_the_Chamber_of_Secrets.jpg",
-            "score": 8.7,
-            "description": "A veteran Green Beret is forced by a cruel Sheriff and his deputies to flee into the mountains and wage an escalating one-man war against his pursuers.",
-            "price": 800,
-            "publisher": "Bloomsbury"
-        },
-        {
-            "id": 2,
-            "title": "The Hobbit",
-            "author": "J. R. R. Tolkien",
-            "cover": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&product=path%5B/pimages/9780547928227_p0_v2%5D&call=url%5Bfile:common/decodeProduct.chain%5D",
-            "score": 9.2,
-            "description": "The Hobbit, or There and Back Again is a children's fantasy novel by English author J. R. R. Tolkien. It was published on 21 September 1937 to wide critical acclaim, being nominated for the Carnegie Medal and awarded a prize from the New York Herald Tribune for best juvenile fiction. The book remains popular and is recognized as a classic in children's literature.",
-            "price": 1500,
-            "publisher": "George Allen & Unwin"
-        },
-        {
-            "id": 3,
-            "title": "The Fellowship of the Ring",
-            "author": "J. R. R. Tolkien",
-            "cover": "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Fellowship_of_the_Ring_cover.gif",
-            "score": 7.5,
-            "description": "The Fellowship of the Ring is the first of three volumes of the epic[2] novel The Lord of the Rings by the English author J. R. R. Tolkien. It is followed by The Two Towers and The Return of the King. It takes place in the fictional universe of Middle-earth. It was originally published on 29 July 1954 in the United Kingdom.",
-            "price": 1700,
-            "publisher": "George Allen & Unwin"
-        },
-        {
-            "id": 4,
-            "title": "True Heart: A Way to Selflessness",
-            "author": "William M. Watson S. J.",
-            "cover": "https://images-na.ssl-images-amazon.com/images/I/41yWbSDgBDL._SX331_BO1,204,203,200_.jpg",
-            "score": 7.2,
-            "description": "Everyone has experienced coming to a crossroads in their life. We’re all familiar with the feeling of having to decide between two different directions our lives could go--two different visions of our future. How do we pick between them? How do we know which one is the “right” path to take?",
-            "price": 400,
-            "publisher": "CreateSpace Independent Publishing Platform"
-        }
-    ]
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": "J. K. Rowling",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/5/5c/Harry_Potter_and_the_Chamber_of_Secrets.jpg",
+      "score": 8.7,
+      "description": "A veteran Green Beret is forced by a cruel Sheriff and his deputies to flee into the mountains and wage an escalating one-man war against his pursuers.",
+      "price": 800,
+      "publisher": "Bloomsbury"
+    },
+    {
+      "id": 2,
+      "title": "The Hobbit",
+      "author": "J. R. R. Tolkien",
+      "cover": "https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B300%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&product=path%5B/pimages/9780547928227_p0_v2%5D&call=url%5Bfile:common/decodeProduct.chain%5D",
+      "score": 9.2,
+      "description": "The Hobbit, or There and Back Again is a children's fantasy novel by English author J. R. R. Tolkien. It was published on 21 September 1937 to wide critical acclaim, being nominated for the Carnegie Medal and awarded a prize from the New York Herald Tribune for best juvenile fiction. The book remains popular and is recognized as a classic in children's literature.",
+      "price": 1500,
+      "publisher": "George Allen & Unwin"
+    },
+    {
+      "id": 3,
+      "title": "The Fellowship of the Ring",
+      "author": "J. R. R. Tolkien",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Fellowship_of_the_Ring_cover.gif",
+      "score": 7.5,
+      "description": "The Fellowship of the Ring is the first of three volumes of the epic[2] novel The Lord of the Rings by the English author J. R. R. Tolkien. It is followed by The Two Towers and The Return of the King. It takes place in the fictional universe of Middle-earth. It was originally published on 29 July 1954 in the United Kingdom.",
+      "price": 1700,
+      "publisher": "George Allen & Unwin"
+    },
+    {
+      "id": 4,
+      "title": "True Heart: A Way to Selflessness",
+      "author": "William M. Watson S. J.",
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/41yWbSDgBDL._SX331_BO1,204,203,200_.jpg",
+      "score": 7.2,
+      "description": "Everyone has experienced coming to a crossroads in their life. We’re all familiar with the feeling of having to decide between two different directions our lives could go--two different visions of our future. How do we pick between them? How do we know which one is the “right” path to take?",
+      "price": 400,
+      "publisher": "CreateSpace Independent Publishing Platform"
+    }
+  ]
 }

@@ -1,7 +1,8 @@
 img.cover {
   width: 50%;
 }
-h3, div.author {
+h3,
+div.author {
   background-color: rgb(207, 24, 24);
   margin-top: 0;
   text-align: center;
@@ -16,7 +17,8 @@ div.description {
   float: right;
 }
 
-div.score, div.price {
+div.score,
+div.price {
   margin: 10px;
   font-size: 20px;
 }
@@ -27,9 +29,9 @@ div.publisher {
 }
 
 div.score {
-    float: right;
-    width: 45%;
-    text-align: end;
+  float: right;
+  width: 45%;
+  text-align: end;
 }
 
 div.score fa-icon {
