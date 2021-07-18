@@ -23,6 +23,7 @@ import { NewsComponent } from './components/news/news.component';
 import { SingleNewsComponent } from './components/single-news/single-news.component';
 import { NewsDetailsComponent } from './components/news-details/news-details.component';
 import { NewsListComponent } from './components/news-list/news-list.component';
+import { NewsEffects } from './store/news.effects';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,7 @@ import { NewsListComponent } from './components/news-list/news-list.component';
       maxAge: 25,
       logOnly: environment.production,
     }),
-    EffectsModule.forRoot([BooksEffects]),
+    EffectsModule.forRoot([BooksEffects, NewsEffects]),
   ],
   providers: [BooksService, NewsService],
   bootstrap: [AppComponent],
