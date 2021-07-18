@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from './store/app.state';
 import { loadBooks } from './store/books.actions';
+import { loadNews } from './store/news.actions';
 
 @Component({
   selector: 'app-root',
@@ -15,5 +16,6 @@ export class AppComponent {
 
   ngOnInit() {
     this.store.dispatch(loadBooks());
+    this.store.dispatch(loadNews());
   }
 }

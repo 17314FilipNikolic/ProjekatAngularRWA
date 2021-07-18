@@ -1,0 +1,7 @@
+<div class="container" *ngIf="singleNews" (click)="clicked()">
+  <div class="title">{{ singleNews.title }}</div>
+  <img class="cover" src="{{ singleNews.cover }}" />
+  <div class="description">
+    {{ singleNews.description.split(" ").splice(0, 15).join(" ") }}...
+  </div>
+</div>

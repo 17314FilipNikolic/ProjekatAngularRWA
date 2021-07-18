@@ -1,0 +1,6 @@
+<ul *ngFor="let singleNews of news | async">
+  <app-single-news
+    [singleNews]="singleNews"
+    (onClick)="selectedNews($event)"
+  ></app-single-news>
+</ul>
